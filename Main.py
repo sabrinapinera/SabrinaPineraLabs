@@ -1,5 +1,6 @@
 import time
-from Stopwatch import *
+from RoomController import *
 
-s = Stopwatch()
-s.run()
+myroom = RoomController()
+
+myroom.run()
